@@ -11,7 +11,7 @@ Usage: ./dos-test target.ch port
 
 ```
 #### Example:
-bash$ ./dos-test domainfake.ch 21
+bash$ ./dos-test fakedomain.ch 21
 
 
 #### TODO:
