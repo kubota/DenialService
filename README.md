@@ -3,11 +3,15 @@ Testing for Denial of Service.
 
 #### Usage:
 ```
-Usage: ./dnsZone.sh domain
+Using GCC to compile the program in C
+
+bash$: gcc dos-attack.c -o dos-test
+
+Usage: ./dos-test target.ch port
 
 ```
 #### Example:
-bash$ ./dnsZone.sh fakedomain.com
+bash$ ./dos-test domainfake.ch 21
 
 
 #### TODO:
